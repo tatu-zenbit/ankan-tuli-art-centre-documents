@@ -1,6 +1,6 @@
-# Ankan Tuli Art Center - Legal Documents
+# Ankan Tuli Art Centre - Legal Documents
 
-This contains the official legal documentation for the **Ankan Tuli Art Center** mobile application.
+This contains the official legal documentation for the **Ankan Tuli Art Centre** mobile application.
 
 ### 📄 Documents
 * [Privacy Policy](./privacy-policy.md)
