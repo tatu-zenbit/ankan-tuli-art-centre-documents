@@ -4,7 +4,7 @@ title: Terms and Conditions
 ---
 
 # Terms and Conditions for Ankan Tuli Art Centre
-**Effective Date:** January 31, 2026
+**Effective Date:** February 3, 2026
 
 ---
 
