@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Opening Ankan Tuli Art Centre...</title>
+</head>
+<body>
+  <p>Opening app...</p>
+  <script>
+    // Try to open the app
+    window.location = "ankantuli://open";
+
+    // If app not installed, go to Play Store after 2 seconds
+    setTimeout(function() {
+      window.location = "https://play.google.com/store/apps/details?id=com.ankantuli.artcentre";
+    }, 2000);
+  </script>
+</body>
+</html>
