@@ -221,7 +221,7 @@
     // ── Build scheme URL — passes studentId into the app ─────────────────────
     // App receives: ankantuliartcentre:///open?studentId=abc123
     const SCHEME = studentId
-      ? `ankantuliartcentre:///open?studentId=${encodeURIComponent(studentId)}`
+      ? `ankantuliartcentre:///?studentId=${encodeURIComponent(studentId)}`
       : `ankantuliartcentre:///`;
 
     // ── DOM refs ──────────────────────────────────────────────────────────────
