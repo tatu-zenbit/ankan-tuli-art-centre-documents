@@ -133,6 +133,7 @@
     }
 
     .footer { position: fixed; bottom: 20px; font-size: 11px; color: rgba(255,255,255,0.3); z-index: 10; letter-spacing: 0.3px; }
+
   </style>
 </head>
 <body>
@@ -162,7 +163,7 @@
 
       <div style="width:100%;text-align:center;">
         <div class="status-title" id="statusTitle">Opening App…</div>
-        <div class="status-desc"  id="statusDesc">Please wait while we opening<br/>Ankan Tuli Art Centre</div>
+        <div class="status-desc"  id="statusDesc">Please wait while launching<br/>Ankan Tuli Art Centre</div>
       </div>
 
       <div class="progress-track">
@@ -209,6 +210,7 @@
 
   </div>
 
+
   <div class="footer">© Ankan Tuli Art Centre</div>
 
   <script>
@@ -235,6 +237,9 @@
     const done   = el => { el.classList.remove('active'); el.classList.add('done'); };
     const active = el => el.classList.add('active');
     const prog   = p  => fill.style.width = p + '%';
+
+    console.log('[ATAC] studentId:', studentId || '(none)');
+    console.log('[ATAC] Scheme to fire:', SCHEME);
 
     prog(15);
 
